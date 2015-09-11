@@ -1,0 +1,3 @@
+# fuzzyconfig
+config of fuzzyleapfrog
+
