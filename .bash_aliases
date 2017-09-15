@@ -6,8 +6,8 @@ alias la='ls -a'
 
 # emacs shortcut and open without messages
 e() {
-#  emacs $@ &
-  emacs24 $@ &
+#  emacs $@ >/dev/null 2>&1 &
+  emacs24 $@ >/dev/null 2>&1 &
 }
 
 # general aliases
