@@ -10,6 +10,11 @@ e() {
   emacs24 $@ >/dev/null 2>&1 &
 }
 
+# evince shortcut and open without messages
+ev() {
+  evince $@ >/dev/null 2>&1 &
+}
+
 # general aliases
 alias cl='rm *~'
 alias ch='chmod u+x'
