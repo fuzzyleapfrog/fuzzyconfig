@@ -17,6 +17,7 @@ ev() {
 
 # general aliases
 alias cl='rm *~'
+alias cy='rm *.pyc'
 alias ch='chmod u+x'
 
 # aliases for tools
