@@ -14,3 +14,4 @@
 (global-font-lock-mode 1)
 (set-background-color "black")
 (set-foreground-color "white")
+(set-face-attribute 'default nil :height 100)
